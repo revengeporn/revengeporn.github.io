@@ -2,25 +2,33 @@
 	margin: 0px;
 	padding: 0px;
 	overflow-x: hidden;
-	overflow-y: hidden;
     font-family: 'Ubuntu', sans-serif;
 }
 
 section {
-	background-image: url(bg.jpg);
-	background-size: cover;
-	height: 100%;
+    background-image: url(bgtest.jpg);
+    background-repeat: repeat-y;
 }
 
 .conteiner {
     margin: 0 auto;
     width: 900px;
+    padding-left: 15%;
+    color: #ffffff;
+}
+
+p {
+    text-indent: 25px;
+    line-height: 150%;
 }
 
 aside {
 	background-color: #000;
 	width: 15%;
 	float: left;
+    position: fixed;
+    height: 100%;
+    overflow: hidden;
 }
 
 aside img {
@@ -52,6 +60,7 @@ nav ul li {
 	background-size: 100%;
 	padding: 10px;
 	margin-bottom: 5px;
+    font-weight: bold;
 }
 
 nav ul li:hover {
@@ -59,9 +68,9 @@ nav ul li:hover {
 }
 
 .logo {
-	width: 137px;
 	margin: 60px auto;
     margin-bottom: 40px;
+    width: 100px;
 }
 
 .video {
@@ -69,10 +78,60 @@ nav ul li:hover {
 }
 
 .padrao {
-    color: #fff;
     text-align: center;
 }
 
 .titulo {
 padding-top: 100px
+}
+
+.titulo h1 {
+    margin-bottom: 0px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.sobre {
+    margin-top: 200px;
+}
+
+.sobre iframe {
+    float: left;
+}
+
+.sobre a {
+color: #fff;
+}
+
+iframe {
+margin-right: 15px;
+}
+
+.conte {
+    margin-top: 200px;
+}
+
+.conte form {
+    margin-top: 60px;
+}
+
+p.margemvideos {
+    margin-bottom: 50px;
+}
+
+.agradecimentos {
+    margin-top: 250px;
+}
+
+.agradecimentos a {
+    color: #fff;
+}
+
+.sobre {
+    margin-top: 350px;
+    margin-bottom: 400px;
 }
